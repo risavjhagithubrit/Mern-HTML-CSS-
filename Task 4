@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <center>
+          <br>
+              <caption>Personal Information</caption> <br><br>
+
+              <!-- Single line input -->
+              <tr>
+                  <td><label for="fn">Full Name: </label></td>
+                  <td><input type="text" name="fn" placeholder="Enter your name"/></td>
+              </tr><br><br>
+
+
+              <tr>
+                <td><label for="un">Username: </label></td>
+                <td><input type="text" name="un" placeholder="Enter your username"/></td>
+            </tr><br><br>
+
+  
+            <tr>
+                <td><label for="pw">Password: </label></td>
+                <td><input type="number" name="pw" placeholder="Enter your password"/></td>
+            </tr><br><br>
+
+
+            <tr>
+                <td><label for="rp">Re-Password: </label></td>
+                <td><input type="number" name="rp" placeholder="Enter your repassword"/></td>
+            </tr><br><br>
+
+              
+            <tr>
+                <td><label for="age">Age: </label></td>
+                <td><input type="number" name="age" placeholder="Enter your age"/></td>
+            </tr><br><br>
+
+  
+              <!-- Radio -->
+              <tr>
+                  <td><label>Gender: </label></td>
+                  <td>
+                      <input type="radio" name="gender" />Male
+                      <input type="radio" name="gender" />Female
+                  </td>
+              </tr> <br><br>
+              
+              <input type="submit" value="Save">
+            </table>
+            
+        </center>
+        
+       </form>
+</body>
+</html>: 
