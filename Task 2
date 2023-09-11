@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Nested List(list inside list)</h2>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul></li>
+    <li>Milk</li>
+  </ul>
+</body>
+</html>
