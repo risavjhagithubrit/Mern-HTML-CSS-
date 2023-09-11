@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Task-3</title>
+</head>
+<body>
+    <h2>Click any of the following links:</h2>
+    <p>
+        <a href="https://codemithra.com/vit-helpdesk/" target="_blank">Open in New Window</a>
+    </p>
+    <p>
+        <a href="https://www.example.com" target="_self">Open in Same Window</a>
+    </p>
+    <p>
+        <a href="https://www.example.com" target="_parent">Open in Parent Window</a>
+    </p>
+    <p>
+        <a href="mailto:youremail@example.com">Send Email</a>
+    </p>
+</body>
+</html>
