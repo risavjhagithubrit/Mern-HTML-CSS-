@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <center>
+          <br>
+              <caption>Registration Form</caption> <br><br>
+
+              <!-- Single line input -->
+              <tr>
+                  <td><label for="fn">Full Name: </label></td>
+                  <td><input type="text" name="fn" placeholder="Enter your name"/></td>
+              </tr><br><br>
+
+
+              <tr>
+                <td><label for="ln">Last name: </label></td>
+                <td><input type="text" name="ln" placeholder="Enter your lastname"/></td>
+            </tr><br><br>
+
+            <tr>
+                <td><label for="em">Email: </label></td>
+                <td><input type="text" name="em" placeholder="Enter your email"/></td>
+            </tr><br><br>
+
+            <tr>
+                <td><label for="pw">Password: </label></td>
+                <td><input type="number" name="pw" placeholder="Enter your password"/></td>
+            </tr><br><br>
+
+
+            <tr>
+                <td><label for="rp">Re-enter Password: </label></td>
+                <td><input type="number" name="rp" placeholder="Enter your repassword"/></td>
+            </tr><br><br>
+
+  
+              <!-- Radio -->
+              <tr>
+                  <td><label>Gender: </label></td>
+                  <td>
+                      <input type="radio" name="gender" />Male
+                      <input type="radio" name="gender" />Female
+                  </td>
+              </tr> <br><br>
+
+              <tr>
+                <td><label for="age">Age: </label></td>
+                <td><input type="number" name="age" placeholder="Enter your age"/></td>
+            </tr><br><br>
+
+            <tr>
+                <td><label for="pn">Phone Number: </label></td>
+                <td><input type="number" name="pm" placeholder="Enter your phone number"/></td>
+            </tr><br><br>
+
+            <tr>
+                <td><label>Address</label></td>
+                <td><textarea></textarea></td>
+            </tr><br><br>
+
+            <tr>
+                <td><label for="st">State: </label></td>
+                <td><input type="text" name="st" placeholder="Enter your state"/></td>
+            </tr><br><br>
+
+            <tr>
+                <td><label>Country</label></td>
+                <td>
+                    <select>
+                        <option>--Select--</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <option>Canada</option>
+                    </select>
+                </td>
+            </tr><br><br>
+
+            <tr>
+                <td><label>Languages known</label></td>
+                <td>
+                    <input type="checkbox" />English
+                    <input type="checkbox" />Kannada
+                    <input type="checkbox" />Hindi
+                    <input type="checkbox" />Telugu
+                </td>
+            </tr><br><br>
+
+            <input type="checkbox" id="declaration" name="declaration" required>
+            <label for="declaration">Hereby I declare all the details are given true.</label><br><br>
+              
+              <input type="submit" value="Save">
+            </table>
+            
+        </center>
+        
+       </form>
+</body>
+</html>
