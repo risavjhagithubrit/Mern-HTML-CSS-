@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Hoverable Side Navigation with HTML, CSS and JavaScript</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <style>
+      .sidenav a {
+         position: absolute;
+         left: -80px;
+         transition: 0.1s;
+         padding: 14px;
+         width: 100px;
+         text-decoration: none;
+         font-size: 20px;
+         color: white;
+         border-radius: 0px 25px 25px 0px;
+      }
+      .sidenav a:hover {
+         left: 0;
+      }
+      #home {
+         top: 20px;
+         background-color: #003300;
+      }
+      #codingground {
+         top: 80px;
+         background-color: #1d2dc5;
+      }
+      #jobs {
+         top: 165px;
+         background-color: #c3481c;
+      }
+      #library {
+         top: 225px;
+         background-color: #0f0f0f;
+      }
+     
+      #homeContent,
+      #codingGroundContent,
+      #jobsContent,
+      #libraryContent{
+         margin: auto;
+         display: flex;
+         width: 60%;
+         text-align: center;
+         display: none;
+      }
+   </style>
+   <script>
+      function showContent(contentId) {
+         var content = document.getElementById(contentId);
+         content.style.display = "block";
+      }
+   </script>
+</head>
+<body>
+    <h2>Hoverable Sidenav Buttons</h2>
+    <p>Hover over the buttons in the left side navigation to open them.</p>
+   <div class="sidenav">
+      <a href="#" id="home" onclick="showContent('homeContent')">Home</a>
+      <a href="#" id="codingground" onclick="showContent('codingGroundContent')">Coding Ground</a>
+      <a href="#" id="jobs" onclick="showContent('jobsContent')">Jobs</a>
+      <a href="#" id="library" onclick="showContent('libraryContent')">Library</a>
+     
+   </div>
+   <div id="homeContent">
+      <h2>Home Content</h2>
+      <p>This is the content for the Home page.</p>
+   </div>
+   <div id="codingGroundContent">
+      <h2>Coding Ground Content</h2>
+      <p>This is the content for the Coding Ground page.</p>
+   </div>
+   <div id="jobsContent">
+      <h2>Jobs Content</h2>
+      <p>This is the content for the Jobs page.</p>
+   </div>
+   <div id="libraryContent">
+      <h2>Library Content</h2>
+      <p>This is the content for the Library page.</p>
+   </div>
+   
+</body>
+</html>
